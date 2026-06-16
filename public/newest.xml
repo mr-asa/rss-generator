@@ -1,0 +1,1131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>ComfyUI — Newest workflows</title>
+    <link>https://comfy.org/workflows</link>
+    <description>Newest approved workflows from comfy.org.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jun 2026 13:02:50 +0000</lastBuildDate>
+    <atom:link href="https://github.com/mr-asa/rss-generator/newest.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Character + Clothing Virtual Try on Studio Photoshoot</title>
+      <link>https://comfy.org/workflows/5652fbe7f479/</link>
+      <guid isPermaLink="false">5652fbe7f479</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b66c3ec8-f886-496f-94ef-0c5c5b90c2a2.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an image of your character and a flat lay image of your clothing items. Generate 4 fashion editorial photographs of your character in the outfit. Select which image to upscale and add back details.&lt;/p&gt;</description>
+      <category>Character</category>
+      <category>Character Reference</category>
+      <category>Image Upscale</category>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>1 input multiple styles from prompt</title>
+      <link>https://comfy.org/workflows/1043317e75c9/</link>
+      <guid isPermaLink="false">1043317e75c9</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/74ed0f6c-4988-4c9d-8e87-a0d7375c9dd8.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an image and generate 12 stylized variations in under 15 seconds using Grok Imagine Quality.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Style Transfer</category>
+    </item>
+    <item>
+      <title>FLUX Virtual Try-On</title>
+      <link>https://comfy.org/workflows/1c8383fd62e5/</link>
+      <guid isPermaLink="false">1c8383fd62e5</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/4d5b025e-c8b0-462c-91f3-68622a2937a3.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a person photo and a garment image. Generate a virtual try-on result with the garment applied to the person while preserving face and pose.&lt;/p&gt;</description>
+      <category>virtual try on</category>
+    </item>
+    <item>
+      <title>Ideogram v4: Text to Image</title>
+      <link>https://comfy.org/workflows/c0a2671af7c4/</link>
+      <guid isPermaLink="false">c0a2671af7c4</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/a7b099fd-d46f-4e0d-92c2-cac8f490f52b.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Input a text prompt or structured JSON description. Generate an image with precise layout, color, and style control using Ideogram 4.0.
+&lt;/p&gt;</description>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>Ideogram v4: Text to Image (API)</title>
+      <link>https://comfy.org/workflows/5ae006b13a36/</link>
+      <guid isPermaLink="false">5ae006b13a36</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/32202b2a-fb88-4e36-b3c1-f70336fb82ad.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Input a text prompt in structured JSON format. Generate a high-quality image with precise layout control, text rendering, and color palette support.&lt;/p&gt;</description>
+      <category>Text to Image</category>
+      <category>Ideogram</category>
+    </item>
+    <item>
+      <title>Storyboard To Video - Seedance 2.0</title>
+      <link>https://comfy.org/workflows/f4e29143100c/</link>
+      <guid isPermaLink="false">f4e29143100c</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/34ea9f1a-1aac-4c6f-af48-b88cf154ec9b.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate an 8-panel storyboard from a simple text prompt, then use that storyboard as the foundation for Seedance 2.0. The storyboard provides a visual blueprint for the sequence, allowing you to guide the video with more control over the action, camera angles, composition, and overall storytelling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seamless Video Transitions - LTX 2.3 FLW LoRA</title>
+      <link>https://comfy.org/workflows/5b94a8f404fa/</link>
+      <guid isPermaLink="false">5b94a8f404fa</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/762ee46f-4103-4cd1-a9a4-b84f5ba47176.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload two input videos and generate a seamless transition between the two shots.&lt;/p&gt;</description>
+      <category>Video to Video</category>
+      <category>Video Generation</category>
+      <category>Video Extension</category>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>LoRA</category>
+    </item>
+    <item>
+      <title>Cinematic Bridge Video</title>
+      <link>https://comfy.org/workflows/2f10814fd823/</link>
+      <guid isPermaLink="false">2f10814fd823</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/6dd3ab9f-a801-4d73-bb7c-7a92b63106ca.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate or use a final frame, then create a cinematic transition from the input frame to the end frame.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>Image to Video</category>
+    </item>
+    <item>
+      <title>VFX Passes to Video</title>
+      <link>https://comfy.org/workflows/8fe7ed30c4ec/</link>
+      <guid isPermaLink="false">8fe7ed30c4ec</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/f69a2c4a-4fa3-43b0-9ec0-17caee9c2784.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Turn one reference image into a blendable VFX keyframe with chromatic aberration, glow, lens flare, film finish, and generate a Seedance 2.0 cinematic video.&lt;/p&gt;</description>
+      <category>Visual Effects</category>
+      <category>Video Generation</category>
+      <category>Image to Video</category>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>Color Curves to Video</title>
+      <link>https://comfy.org/workflows/9f1bb8c2f14f/</link>
+      <guid isPermaLink="false">9f1bb8c2f14f</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/18f4d59d-94f4-49e2-9225-9e2095608466.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Build cinematic color-curve grades and generate a video from a single reference image with native Curve Editors, histogram-guided RGB curves, and a GLSL shader in Color Curves to Video.&lt;/p&gt;</description>
+      <category>Visual Effects</category>
+      <category>Image Edit</category>
+      <category>Image Enhancement</category>
+      <category>Video Generation</category>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>Utility Video Upscale</title>
+      <link>https://comfy.org/workflows/171dea657096/</link>
+      <guid isPermaLink="false">171dea657096</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ae14acf1-b89d-4391-8c44-5808d18440dc.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upscale videos to sharper, higher-resolution outputs with Wan2.2, with precise control over detail, denoise strength, and sizing parameters in Utility Video Upscale.&lt;/p&gt;</description>
+      <category>Video Upscale</category>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>Video to Video</category>
+      <category>Video Generation</category>
+      <category>Visual Effects</category>
+      <category>Cinematic</category>
+    </item>
+    <item>
+      <title>Commerce Hero Video</title>
+      <link>https://comfy.org/workflows/4dfdaf8f07d3/</link>
+      <guid isPermaLink="false">4dfdaf8f07d3</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/94f3a5fd-c8d6-4035-abc0-2ca1c784d119.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Relight a product image into a premium e-commerce hero image and short product video.&lt;/p&gt;</description>
+      <category>Relight</category>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>Image to Video</category>
+    </item>
+    <item>
+      <title>Krea 2 Moodboards</title>
+      <link>https://comfy.org/workflows/825e6fb23c2c/</link>
+      <guid isPermaLink="false">825e6fb23c2c</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <author>JMS</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/1ee67ec4-974e-4338-abb3-2b0843081b05.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;A simple Krea 2 workflow for testing and comparing different Krea moodboard styles. Each section uses a separate prompt, moodboard ID, and save node, making it easy to try multiple visual directions from one workflow. Users can bypass inactive sections, swap in their own Krea moodboard ID, adjust moodboard strength, and generate clean test outputs.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Image</category>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>cinematic_annotate_video</title>
+      <link>https://comfy.org/workflows/0136284ecc19/</link>
+      <guid isPermaLink="false">0136284ecc19</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/3af03b84-6222-4a95-986f-211ab43372cd.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Cinematic Annotate turns one clean image into adirector-style camera-path markup, converts it into a Seedance 2.0 motion prompt, and generates a clean cinematic video from the original frame.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>Image to Video</category>
+    </item>
+    <item>
+      <title>Anima Base v1: Text to Image</title>
+      <link>https://comfy.org/workflows/ab2f354cd396/</link>
+      <guid isPermaLink="false">ab2f354cd396</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/227b48bd-1a13-4463-bb80-5bddc2181e7f.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Input a text prompt describing an anime or artistic illustration. Generate a non-photorealistic image focused on anime concepts, characters, or styles.&lt;/p&gt;</description>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>Krea 2: Style Reference</title>
+      <link>https://comfy.org/workflows/fd76422c14ea/</link>
+      <guid isPermaLink="false">fd76422c14ea</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/07025513-05a9-4fe5-a84a-27b9709ea508.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a style reference image and input a text prompt. Generate an image matching the prompt while applying the aesthetic style from your reference.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Style Reference</category>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>Krea2: Text to Image</title>
+      <link>https://comfy.org/workflows/26e1f4eddd7e/</link>
+      <guid isPermaLink="false">26e1f4eddd7e</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/84ef630e-8594-4c0f-a163-488b4bac6941.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Input a text prompt describing your desired scene. Generate four aesthetic, high-quality images that interpret your prompt with creative variety.&lt;/p&gt;</description>
+      <category>Text to Image</category>
+      <category>API</category>
+    </item>
+    <item>
+      <title>One Button Transformation</title>
+      <link>https://comfy.org/workflows/0553e57852fe/</link>
+      <guid isPermaLink="false">0553e57852fe</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/078d6070-aae1-4527-a69e-3c34f236fb70.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create transformation videos where a cube, sphere, capsule, or custom shape appears on a table with a button on top. A hand presses the button and the object transforms into a person, character, or item based on your reference images.
+
+The workflow automatically uses the colors and theme of your subject to generate matching first and last frames while keeping the environment and style consistent throughout the transformation.
+
+Simply provide your reference images, choose a shape, generate the frames, and feed them into Seedance to create the final animation effect.
+
+Includes support for both Seedance 2.0 for higher-quality results and Seedance 1.5 as a more affordable alternative that still produces solid results.
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Restore Archival Footage - LTX 2.3 Dearchive LoRA</title>
+      <link>https://comfy.org/workflows/d636956bdddc/</link>
+      <guid isPermaLink="false">d636956bdddc</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/e00756b1-6ec0-4b9d-aa98-b738f1cec5b0.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an input video or archival footage and restore it with 1 click.&lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>Video to Video</category>
+    </item>
+    <item>
+      <title>Motion Collages</title>
+      <link>https://comfy.org/workflows/c27ee1ed3d54/</link>
+      <guid isPermaLink="false">c27ee1ed3d54</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/9c154c8e-bb84-41dd-bed3-268428dad4a2.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Take a video and transform it into a stop motion sequence with a style reference&lt;/p&gt;</description>
+      <category>Batch Generation</category>
+      <category>Image to Video</category>
+      <category>Image Edit</category>
+      <category>Style Transfer</category>
+    </item>
+    <item>
+      <title>Remove Watermark from Video - LTX 2.3 LoRA</title>
+      <link>https://comfy.org/workflows/fedbcfb05b08/</link>
+      <guid isPermaLink="false">fedbcfb05b08</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/3dfdf2d8-b9fb-4c5e-9920-405e78491bf0.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an input video with watermarks and remove them with one click.&lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>Video to Video</category>
+      <category>Inpainting</category>
+    </item>
+    <item>
+      <title>Remove Subtitles from Video - LTX 2.3 LoRA</title>
+      <link>https://comfy.org/workflows/1785e38f230a/</link>
+      <guid isPermaLink="false">1785e38f230a</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/df91172f-4c74-4b9b-a1d2-0ffac218d770.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an input video with subtitles or text occlusions and remove the text elements with one click.&lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>Video to Video</category>
+      <category>Inpainting</category>
+    </item>
+    <item>
+      <title>Remove Object from Video - LTX 2.3 Obscura Remova LoRA</title>
+      <link>https://comfy.org/workflows/875410c650b8/</link>
+      <guid isPermaLink="false">875410c650b8</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/a132424a-3007-4d10-8f6a-23143a4a12fc.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an input video and prompt for the object to get removed from the video's foreground. &lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Video</category>
+      <category>Video to Video</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026_LTX-2.3_IC LoRA (Union Control)</title>
+      <link>https://comfy.org/workflows/12c2481d04b4/</link>
+      <guid isPermaLink="false">12c2481d04b4</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/e896534c-85c3-4811-97ad-408a4691ec75.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;The second bonus workflow for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if time allows. A video editing workflow using LTX 2.3 with the Union Control IC LoRA and canny control. Provide a modified frame from your video and the workflow propagates that change across the clip. For example, take a frame from a video of a shirtless boxer, edit a red shirt onto him, and the output video will show him wearing the red shirt throughout.&lt;/p&gt;</description>
+      <category>Canny</category>
+      <category>ControlNet</category>
+      <category>Replacement</category>
+      <category>Video Edit</category>
+      <category>Video to Video</category>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>LoRA</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026_Qwen-Image-Edit-2511</title>
+      <link>https://comfy.org/workflows/a6b2c3fe248c/</link>
+      <guid isPermaLink="false">a6b2c3fe248c</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/5cadd872-5332-4ef2-b3f1-12d17d1f2cde.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;A bonus workflow for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if time allows. An image editing workflow powered by Qwen-Image-Edit-2511.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - Final WF - t2v</title>
+      <link>https://comfy.org/workflows/3eb92c1b2380/</link>
+      <guid isPermaLink="false">3eb92c1b2380</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/aed4162c-1564-4b28-9256-e68b42fac234.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;The sixth and final workflow released for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if they choose. A text-to-video workflow that brings together everything built and used in the previous workflows into one complete setup.&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Text Generation</category>
+      <category>Text to Image</category>
+      <category>Image to Video</category>
+      <category>Text to Video</category>
+      <category>Video</category>
+      <category>Video Generation</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - LTX-2.3 - i2v</title>
+      <link>https://comfy.org/workflows/67981edb9ad4/</link>
+      <guid isPermaLink="false">67981edb9ad4</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/64c0aabe-c6a9-47cc-a3c5-dddcd8846c57.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;The fifth workflow released for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if they choose. An image-to-video workflow built on the LTX 2.3 model, turning a still image into a generated video clip.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+      <category>Video</category>
+      <category>Video Generation</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - QwenVL - Prompt Enhancer</title>
+      <link>https://comfy.org/workflows/4638e59ae7d2/</link>
+      <guid isPermaLink="false">4638e59ae7d2</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/cdd9914d-f881-4057-bbbb-e0e8ad4d1d30.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;The fourth workflow released for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if they choose. A prompt enhancer powered by the Qwen VL LLM node: enter a simple prompt and get back a richer, more detailed version ready to use.&lt;/p&gt;</description>
+      <category>Text Generation</category>
+    </item>
+    <item>
+      <title>Grok Imagine Image Quality: Edit</title>
+      <link>https://comfy.org/workflows/b35c9fa7658c/</link>
+      <guid isPermaLink="false">b35c9fa7658c</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ed2c60b8-869c-4e2e-a46c-4ad431cbab31.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Enhance image quality with advanced text rendering and creative control using Grok Imagine Image Quality. Input images or prompts for improved detail and fidelity.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>Grok Imagine Image Quality: Generation</title>
+      <link>https://comfy.org/workflows/6be2f4df213a/</link>
+      <guid isPermaLink="false">6be2f4df213a</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/bc84bdf4-a62c-4242-ab17-883c3e0fcbb6.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate enhanced images with improved details, text rendering, and&lt;/p&gt;</description>
+      <category>Text to Image</category>
+      <category>API</category>
+    </item>
+    <item>
+      <title>VOID: Video Inpainting</title>
+      <link>https://comfy.org/workflows/fa1f01a51d17/</link>
+      <guid isPermaLink="false">fa1f01a51d17</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/d87e5b9e-8d3e-4718-b8e0-a25169d265a4.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a video and mask the object you want to remove. Generate a clean video with the object and its physical interactions deleted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stable Audio 3.0 Medium Base</title>
+      <link>https://comfy.org/workflows/9c3c4722a8e1/</link>
+      <guid isPermaLink="false">9c3c4722a8e1</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/1074224a-d769-4941-b745-c8d06e7af10e.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Input a short text description of a sound, music, or effect. The workflow expands your prompt with Qwen and generates a stereo audio clip from Stable Audio 3.&lt;/p&gt;</description>
+      <category>Audio</category>
+    </item>
+    <item>
+      <title>3x3 Contact Sheet</title>
+      <link>https://comfy.org/workflows/6c3fa01b5d73/</link>
+      <guid isPermaLink="false">6c3fa01b5d73</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/4d7e8ae9-3e55-49d4-b062-5f963951382f.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate a 3x3 grid of image variations from a simple prompt and reference image using Nano Banana. 
+
+Pick your favorite frame from the grid, then recreate it as a standalone high-quality image while maintaining character and outfit consistency.
+
+Great for concept exploration, pose variations, camera angles, outfit ideas, and fast visual inspiration without generating each image individually.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - QwenVL - i2t</title>
+      <link>https://comfy.org/workflows/231992fee1a6/</link>
+      <guid isPermaLink="false">231992fee1a6</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/939bdb0f-a8ff-4ca1-b94c-7bb5f2a84f9d.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;The third workflow released for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if they choose. A simple image-to-text prompt creator using Qwen VL, useful for generating prompts from reference images.&lt;/p&gt;</description>
+      <category>Text Generation</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - Z-Image Turbo - t2i + Upscale</title>
+      <link>https://comfy.org/workflows/94ed41b87579/</link>
+      <guid isPermaLink="false">94ed41b87579</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/8f3074ff-3776-4389-a765-bdb076857ef7.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;The second workflow released for AI on the Lot 2026, made available for ComfyUI 101 workshop attendees to open and follow along if they choose. Same text-to-image setup using Z-Image Turbo, now with an upscale step added for higher resolution output.&lt;/p&gt;</description>
+      <category>Image Upscale</category>
+      <category>Text to Image</category>
+      <category>Image</category>
+    </item>
+    <item>
+      <title>AI on the Lot 2026 - Z-Image Turbo - t2i</title>
+      <link>https://comfy.org/workflows/8e090ccf5a29/</link>
+      <guid isPermaLink="false">8e090ccf5a29</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Julien Durand | MJM</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/12239065-7157-4d4d-813f-5a8776e99d43.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;The first workflow released for AI on the Lot 2026. A text-to-image workflow using Z-Image Turbo, made available for ComfyUI 101 workshop attendees to open and follow along if they choose.&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>Googly Eyes</title>
+      <link>https://comfy.org/workflows/7cecbe192fc2/</link>
+      <guid isPermaLink="false">7cecbe192fc2</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/36251e0d-80b0-4170-a5d9-ab66b0bf5b53.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;LTX 2.3 LoRA that makes anyone in the input video have Googly Eyes. This workflow utilizes the Googlyeyes LTX 2.3 LoRA by TheBurgstall&lt;/p&gt;</description>
+      <category>Video to Video</category>
+      <category>Video</category>
+      <category>Video Edit</category>
+      <category>LoRA</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>Video Restoration</title>
+      <link>https://comfy.org/workflows/558cc012978d/</link>
+      <guid isPermaLink="false">558cc012978d</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/bfe54955-2da1-438f-a131-ea5ec8485829.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Using LTX 2.3 Video to Video you can restore old footage. This LoRA is great for getting details out of older archival film.&lt;/p&gt;</description>
+      <category>Video to Video</category>
+      <category>Video</category>
+      <category>LoRA</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>Video Outpainting</title>
+      <link>https://comfy.org/workflows/ef5d632ed2c5/</link>
+      <guid isPermaLink="false">ef5d632ed2c5</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/e12e3f9b-9fd5-418f-8122-3d30bd79056a.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Video Outpainting using the LTX 2.3 Video Outpainting IC LoRA. Expand your video in any direction!&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Generation</category>
+      <category>Video to Video</category>
+      <category>Outpainting</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>LTX 2.3 - Lipdub LoRA + Voice Clone</title>
+      <link>https://comfy.org/workflows/e4ab88456b9b/</link>
+      <guid isPermaLink="false">e4ab88456b9b</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/dfd1e800-d2d8-4ca9-b624-f4158e694785.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a driving video and prompt the desired dialogue to generate a lipdub of your video using LTX 2.3. The workflow then clones your dubbed audio back to the original character's voice using Chatterbox. It is a fully open source workflow for changing the speech of your character from a driving video. &lt;/p&gt;</description>
+      <category>Audio Editing</category>
+      <category>Character</category>
+      <category>Video Edit</category>
+      <category>Video to Video</category>
+      <category>Voice Cloning</category>
+      <category>Text to Audio</category>
+    </item>
+    <item>
+      <title>Utility Merge Video</title>
+      <link>https://comfy.org/workflows/81ba03930d2b/</link>
+      <guid isPermaLink="false">81ba03930d2b</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/e22526ff-8d19-47db-856d-5dc0250e89f6.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Concatenate 2 videos with the Utility Merge Videos (Subgraph).&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Edit</category>
+    </item>
+    <item>
+      <title>Style Transfer Vid2Vid - GPT Image 2 + Seedance 2.0</title>
+      <link>https://comfy.org/workflows/e1e03cafda18/</link>
+      <guid isPermaLink="false">e1e03cafda18</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b767c6f5-1064-4725-941e-f15788d961fc.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create up to 4 style transfer video to video generations using state of the art models. This workflow creates a depth map from your input video to guide the Seedance 2.0 generation. The first frame of the video is extracted and used as reference with your style prompts using GPT-Image-2.&lt;/p&gt;</description>
+      <category>Video to Video</category>
+      <category>Batch Generation</category>
+      <category>Video</category>
+      <category>Style Transfer</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 - Viral Videos Character Swap</title>
+      <link>https://comfy.org/workflows/064da31db8f3/</link>
+      <guid isPermaLink="false">064da31db8f3</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/61c7358d-96f5-49e2-81f5-4991d461ed1c.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A one click workflow to recreate an input video with your character. All you need to do is upload the video and your character. This workflow uses Google Gemini LLM to analyze the input video and reverse engineer a prompt. You can prompt for specific details to inject into this analysis. The workflow extracts the first frame of the video and swaps your character into it, sends this into Seedance 2.0 Reference-to-Video and generates&lt;/p&gt;</description>
+      <category>Character Reference</category>
+      <category>Image to Video</category>
+      <category>Video to Video</category>
+      <category>Video Generation</category>
+      <category>Text Generation</category>
+    </item>
+    <item>
+      <title>Create seamless transitions with LTX 2.3</title>
+      <link>https://comfy.org/workflows/d99717df8788/</link>
+      <guid isPermaLink="false">d99717df8788</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <author>Ingi Erlingsson</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/e190b74b-e616-46ad-a3b0-f14bbe9c0509.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create seamless transitions between shots with this LTX 2.3 workflow, featuring the FLW LoRA from Systsms&lt;/p&gt;</description>
+      <category>Video to Video</category>
+    </item>
+    <item>
+      <title>Text Match Cut</title>
+      <link>https://comfy.org/workflows/e0df9e9c7683/</link>
+      <guid isPermaLink="false">e0df9e9c7683</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <author>JMS</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/eaec964c-035e-4b91-bd3a-0018ec024d9c.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Type a sentence and generate a Vox-style archival newspaper match-cut montage. An LLM node splits the sentence into words, GPT Imagen 2 renders each word on an aged editorial page, and the frames assemble into a video. Adjust the frame rate and repeat count to dial in the stop-motion pacing, or edit the base prompt in the Chat Config node to shift the style (magazine colour, tabloid, ransom-note, comic book, etc).&lt;/p&gt;</description>
+      <category>Batch Generation</category>
+      <category>Video Generation</category>
+      <category>Visual Effects</category>
+      <category>API</category>
+      <category>Video</category>
+      <category>Image</category>
+      <category>Text to Image</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 Cinematic Prompt Studio</title>
+      <link>https://comfy.org/workflows/68c39b4c6a6f/</link>
+      <guid isPermaLink="false">68c39b4c6a6f</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/9469c263-dfb2-4e76-b65d-a7b15af65e15.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create production-ready cinematic shots with concise, director-style Seedance 2.0 prompts built around intentional camera motion, visual storytelling, and strong final frames.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Image to Video</category>
+      <category>Cinematic</category>
+    </item>
+    <item>
+      <title>VFX - Bullet Time Effect</title>
+      <link>https://comfy.org/workflows/7a6ab8b6e694/</link>
+      <guid isPermaLink="false">7a6ab8b6e694</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/0452f2b4-e87c-4230-9b4d-cf017760b99a.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an image or describe a scene, then get **one optimized prompt** built to reproduce the bullet time effect: **frozen action, slow-motion energy, and a cinematic camera orbit around the subject**.&lt;/p&gt;</description>
+      <category>Visual Effects</category>
+      <category>Image to Video</category>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>Branded Comfy Thumbnail</title>
+      <link>https://comfy.org/workflows/60e1839cbb34/</link>
+      <guid isPermaLink="false">60e1839cbb34</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/048418e8-5590-4b3f-89f7-288a58d198bb.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate Thumbnails with your brand guidelines as references.&lt;/p&gt;</description>
+      <category>Brand</category>
+      <category>Brand Design</category>
+      <category>Image</category>
+    </item>
+    <item>
+      <title>Dynamic Motion Design</title>
+      <link>https://comfy.org/workflows/9d588c37e728/</link>
+      <guid isPermaLink="false">9d588c37e728</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/783116d7-2eea-45a5-9ac7-047a0a64a57b.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create polished motion design videos with Seedance-ready prompts.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 - Extend Video</title>
+      <link>https://comfy.org/workflows/fe773d7d7377/</link>
+      <guid isPermaLink="false">fe773d7d7377</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/71c87735-36ba-44ed-93d5-daa28af197e8.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Uses Seedance 2.0 to seamlessly extend an input video. Enter your prompt for the video that occurs immediately following the driving input video. This workflow detects which frame is the most seamless and allows you to select to trim from that frame.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Extension</category>
+      <category>Video to Video</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 - Viral Cinemagraph Effect</title>
+      <link>https://comfy.org/workflows/ed1c4eade3a3/</link>
+      <guid isPermaLink="false">ed1c4eade3a3</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/482ff122-34b5-4a03-9de9-c10c4000a7b1.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A one click workflow to generate a viral cinemagraph frame effect using Seedance 2.0. Upload an image of your character, optionally describe the motion of the scene and click generate. This workflow bypasses the realistic human input ban/limitation. A cinemagraph is a hybrid of a still photo and video, where a static image features a subtle, repeating, and seamless motion.&lt;/p&gt;</description>
+      <category>Character Reference</category>
+      <category>Image to Video</category>
+      <category>Layer Decompose</category>
+      <category>Cinematic</category>
+      <category>Inpainting</category>
+      <category>Video Generation</category>
+    </item>
+    <item>
+      <title>Image → Song → Audio-Reactive Video </title>
+      <link>https://comfy.org/workflows/977fefa2b934/</link>
+      <guid isPermaLink="false">977fefa2b934</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/deb1fbe2-cfe5-4e9a-9bb9-97641ebabd4e.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create songs with ACE Step 1.5 XL and audio-reactive videos with LTX 2.3 and the Audio-Reactive LoRA.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Audio to Video</category>
+      <category>Image to Video</category>
+      <category>Audio</category>
+    </item>
+    <item>
+      <title>LTX 2.3 Audio-Reactive LoRA</title>
+      <link>https://comfy.org/workflows/5cd417e793b8/</link>
+      <guid isPermaLink="false">5cd417e793b8</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ac5ff334-b317-4967-b184-2d13654549e6.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create audio-reactive videos with LTX 2.3 and the Audio-Reactive LoRA.&lt;/p&gt;</description>
+      <category>Audio to Video</category>
+      <category>Audio</category>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 + LLM Prompt Helper</title>
+      <link>https://comfy.org/workflows/49a2f3a0811f/</link>
+      <guid isPermaLink="false">49a2f3a0811f</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/2d8e756e-adbf-4114-bae8-0e84154a84ad.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow uses two reference images and a simple text description to automatically generate a detailed Seedance 2.0-style prompt using an LLM. Instead of spending time figuring out complex prompting structure, the workflow analyzes your references and builds the prompt for you, making it much faster and easier to create high-quality results.
+
+The included LLM helper is designed to match the style and formatting that works well with Seedance 2.0, helping streamline the entire process while still giving you full control over the final output. Just drop in your references, describe the scene or motion you want, and the workflow handles the prompt generation automatically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stylize Video - Frame by Frame - Flux.2 Klein 4b</title>
+      <link>https://comfy.org/workflows/41f029c74cd4/</link>
+      <guid isPermaLink="false">41f029c74cd4</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/86480a79-c615-4065-895d-10061bf6f1e1.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create a stylized frame by frame effect on your input video by using Flux.2 Klein 4b Distilled image editing model.&lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Video to Video</category>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>VFX Utilities</title>
+      <link>https://comfy.org/workflows/be0889296f65/</link>
+      <guid isPermaLink="false">be0889296f65</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <author>Doug Hogan</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/fd38a7e9-0d2a-4d6a-9d6a-b04bbce294cc.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate production-ready VFX utility passes from any image or plate in seconds. This workflow creates alphas, depth, and normal maps using prompt-based and point-based segmentation, giving you the core tools for relighting, compositing, and look development without needing a full CG render.&lt;/p&gt;</description>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>Outpaint to Any Aspect Ratio - Nano Banana Pro</title>
+      <link>https://comfy.org/workflows/2e37304a2fbd/</link>
+      <guid isPermaLink="false">2e37304a2fbd</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/6598740b-69ee-4081-900b-e867e81dff3b.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload your image, input your desired aspect ratio and the images position (as a percentage) in the new aspect ratio composite. Uses Nano Banana Pro to generate an outpainted version of your image to fit the new dimensions.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Outpainting</category>
+      <category>Nano Banana Pro</category>
+    </item>
+    <item>
+      <title>1 image input Split Stack - Nano Banana 2 + Kling 3.0</title>
+      <link>https://comfy.org/workflows/40a427168ef7/</link>
+      <guid isPermaLink="false">40a427168ef7</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/30705f41-1296-475a-86f0-4988fb4fdb0e.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload 1 input image and generate 5 alternate angles to be used as start frames with Kling 3.0. Each video is stacked horizontally in a final 9x16 video.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Image to Video</category>
+      <category>Multiple Angles</category>
+    </item>
+    <item>
+      <title>Generate Talking-Head Videos</title>
+      <link>https://comfy.org/workflows/2fe0313c0bb9/</link>
+      <guid isPermaLink="false">2fe0313c0bb9</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/85909dff-786b-451f-9880-317c99a82cfd.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Bring voice consistency to your open source video generation pipeline with Qwen 3 TTS and LTX 2.3 with the Talkvid ID-LoRA.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+      <category>Lip Sync</category>
+      <category>Audio to Video</category>
+    </item>
+    <item>
+      <title>LTX 2.3 Cameraman IC-LoRA</title>
+      <link>https://comfy.org/workflows/460daa6b205d/</link>
+      <guid isPermaLink="false">460daa6b205d</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/a8e68392-9b73-4d52-9e55-2832ca705de7.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create camera-motion-driven videos with LTX 2.3 and the IC-LoRA Cameraman model.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+      <category>Motion Control</category>
+    </item>
+    <item>
+      <title>Ohneis - Product Workflow</title>
+      <link>https://comfy.org/workflows/d16e25ecd710/</link>
+      <guid isPermaLink="false">d16e25ecd710</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Ohneis652</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/073f713c-4363-427a-b54e-5e2a362fe2b4.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LTX 2.3 - Cozy Felt</title>
+      <link>https://comfy.org/workflows/3cb47a67b81a/</link>
+      <guid isPermaLink="false">3cb47a67b81a</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/1b47eacd-3cbf-431a-a0c1-d4a4c0aaebf2.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Stylized text-to-video generation using VRGameDevGirl84's LTX 2.3 LoRAs + Workflow, adapted to run on Comfy Cloud. Creates adorable felt worlds and characters.&lt;/p&gt;</description>
+      <category>Text to Video</category>
+      <category>LoRA</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>SYSTMS ACTION: QWEN IMAGE EDIT 2511</title>
+      <link>https://comfy.org/workflows/4ab928487496/</link>
+      <guid isPermaLink="false">4ab928487496</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Ingi Erlingsson</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/44500329-2179-441a-97b5-2550030a90ae.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Turn just about anything into a toy with the ACTION Qwen Image Edit 2511 LoRA! Simply upload an image and prompt it by writing "action the [subject]"!&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Image Enhancement</category>
+      <category>Qwen-Image-Edit</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - OOH Visualization</title>
+      <link>https://comfy.org/workflows/c5cbee07611f/</link>
+      <guid isPermaLink="false">c5cbee07611f</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/dbb9b751-2f86-49b6-a2e5-81c9afb1322e.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Image Edit</category>
+      <category>Brand Design</category>
+      <category>Image Upscale</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - B-Roll Creation</title>
+      <link>https://comfy.org/workflows/603b2d01feb0/</link>
+      <guid isPermaLink="false">603b2d01feb0</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/cab1dd4a-7565-4a74-bc08-b768bbd67cc6.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Text to Video</category>
+      <category>Image to Video</category>
+      <category>Video Edit</category>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - Talent Casting</title>
+      <link>https://comfy.org/workflows/ff88e6723334/</link>
+      <guid isPermaLink="false">ff88e6723334</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/12b14df7-4838-49a0-95df-54371cdaa9ae.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Image to Video</category>
+      <category>FLF2V</category>
+      <category>Character Reference</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - Product Photography</title>
+      <link>https://comfy.org/workflows/f4a0425aa8e9/</link>
+      <guid isPermaLink="false">f4a0425aa8e9</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/720ff9d7-0c12-44e6-91fb-3be6891af6d0.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Image to Video</category>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - Storyboard Creation</title>
+      <link>https://comfy.org/workflows/88c94d64ca5d/</link>
+      <guid isPermaLink="false">88c94d64ca5d</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b0a08283-c670-4cc6-bcb4-36a058c37783.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Text to Image</category>
+      <category>Image Edit</category>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Comfy for Advertising - Moodboard Creation</title>
+      <link>https://comfy.org/workflows/e06088bda436/</link>
+      <guid isPermaLink="false">e06088bda436</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>shanef3d</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/c787bb4f-e6f1-4070-b848-b5774235c815.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+      <category>Text to Image</category>
+      <category>Image</category>
+    </item>
+    <item>
+      <title>Quick Ideate to Storyboard to Animated Video (GPT Image 2 + Seedance 2.0)</title>
+      <link>https://comfy.org/workflows/d124e24eca67/</link>
+      <guid isPermaLink="false">d124e24eca67</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b6dd4b63-c5d7-42f4-9c34-d666e78d6bee.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;A quick upload of your animated character reference art and description of the scene unlocks a super fast ideation sessions with GPT Image 2 and Seedance 2.0. Great for content on the go.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+    </item>
+    <item>
+      <title>Graphic Design Recomposer</title>
+      <link>https://comfy.org/workflows/4a6697085e75/</link>
+      <guid isPermaLink="false">4a6697085e75</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/f87b8d5e-0e2a-464b-a1f0-2149f98550c6.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a graphic design and select your desired aspect ratio. This workflow generates and recomposes the graphic to fit the new aspect ratio.&lt;/p&gt;</description>
+      <category>Layout Design</category>
+      <category>Image Edit</category>
+      <category>Outpainting</category>
+    </item>
+    <item>
+      <title>Graphic Color Remixer</title>
+      <link>https://comfy.org/workflows/181a9571c9a0/</link>
+      <guid isPermaLink="false">181a9571c9a0</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/2e334685-2b85-4e11-a5d2-2515832a3600.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a graphic and generate 4, 9 or 16 unique variations in your desired vibe and color palette with a single Nano Banana Pro generation.&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>API</category>
+      <category>Style Reference</category>
+      <category>Layout Design</category>
+    </item>
+    <item>
+      <title>LTX 2.3_ID_lora_CelebVHQ</title>
+      <link>https://comfy.org/workflows/f0257c86b3a0/</link>
+      <guid isPermaLink="false">f0257c86b3a0</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b7ebb75e-af88-4447-8661-5d9feb45a649.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Bring voice consistency to your open source video generation pipeline with Qwen 3 TTS and LTX 2.3 with the CelebHVQ ID-LoRA.&lt;/p&gt;</description>
+      <category>Image to Video</category>
+      <category>Text to Speech</category>
+      <category>Audio to Video</category>
+      <category>Lip Sync</category>
+    </item>
+    <item>
+      <title>Adjustment Frame Workflow</title>
+      <link>https://comfy.org/workflows/7dca0438edf4/</link>
+      <guid isPermaLink="false">7dca0438edf4</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Doug Hogan</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/a643e6f2-f91e-450f-871c-4c99116193f0.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A Director-style AI workflow that generates a shot, refines camera angle, and produces multiple video takes across top models so you can quickly choose the best result.&lt;/p&gt;</description>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>SAM3 - Video Masking via Text Prompts</title>
+      <link>https://comfy.org/workflows/0a6672ca248d/</link>
+      <guid isPermaLink="false">0a6672ca248d</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/9bfe7c05-3088-4c9f-bf78-37f8dafa1b28.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;SAM 3 lets you mask objects in a video just by typing a short phrase like "red car" or "person" — no frame-by-frame rotoscoping. It finds every matching instance, tracks them across frames with stable IDs, and outputs per-frame masks ready for compositing, blurring, or replacement.&lt;/p&gt;</description>
+      <category>Image</category>
+    </item>
+    <item>
+      <title>SAM3 - Video Masking via Text Prompt</title>
+      <link>https://comfy.org/workflows/4d7abcb8e25d/</link>
+      <guid isPermaLink="false">4d7abcb8e25d</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ad6793ae-5949-4565-8036-6fdc64b76824.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;SAM 3 lets you mask objects in a video just by typing a short phrase like "red car" or "person" — no frame-by-frame rotoscoping. It finds every matching instance, tracks them across frames with stable IDs, and outputs per-frame masks ready for compositing, blurring, or replacement.&lt;/p&gt;</description>
+      <category>Image</category>
+    </item>
+    <item>
+      <title>Seedance2.0 Real Human: FLF2V</title>
+      <link>https://comfy.org/workflows/094c40ffb14f/</link>
+      <guid isPermaLink="false">094c40ffb14f</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/02934b3d-ca6d-40f4-a7b7-e0cc6f431d4b.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a reference image of a real person for identity verification and generate a personalized video with first and last frame control using Seedance2.0 FLF2V.
+
+&lt;/p&gt;</description>
+      <category>API</category>
+      <category>FLF2V</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Seedance2.0 Real Human: Image to Video</title>
+      <link>https://comfy.org/workflows/d4b951896b54/</link>
+      <guid isPermaLink="false">d4b951896b54</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b132e0e0-6bf4-4399-9295-d1a57e309a31.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload a reference video of a real person for identity verification. Use your own photo to validate and generate a personalized video output.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Image to Video</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 Image to Video</title>
+      <link>https://comfy.org/workflows/baa06a413558/</link>
+      <guid isPermaLink="false">baa06a413558</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ef4572d3-e3ff-400f-ad87-08341ee6140f.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow is an easy start for generating 4-15 second videos from a single image, using Seedance 2.0&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Image to Video</category>
+      <category>Video Generation</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Z-Image-Turbo_Oldschool-Hud-Graphics</title>
+      <link>https://comfy.org/workflows/36794f399aa0/</link>
+      <guid isPermaLink="false">36794f399aa0</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Sirolim</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/2fa22780-b9a9-4276-b7cf-34b9c748def2.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Create Oldschool Hud Graphics with a LoRA and Z-Image Turbo. Use a LoRA to create unique styles, characters or looks.&lt;/p&gt;</description>
+      <category>Text to Image</category>
+      <category>LoRA</category>
+      <category>Cinematic</category>
+      <category>Z-Image-Turbo</category>
+    </item>
+    <item>
+      <title>Panoramic Image Generation</title>
+      <link>https://comfy.org/workflows/33c621f7803f/</link>
+      <guid isPermaLink="false">33c621f7803f</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nwalmolos</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/d29802dd-a91a-473f-a201-d3c6bf595d2f.jpg" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload an image to generate a panoramic image using Nano Banana/GPT Image 2.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>Refocus LTX 2.3 IC LoRA</title>
+      <link>https://comfy.org/workflows/4ca799182440/</link>
+      <guid isPermaLink="false">4ca799182440</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/f1e58240-0359-40c7-9b61-3507a6484e91.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;The Refocus IC LoRA for LTX 2.3 makes it possible to bring slightly out-of-focus footage back into clarity.
+
+Even in more extreme cases, it can recover detail that would typically be lost, opening up new possibilities for salvaging footage that would otherwise go unused.&lt;/p&gt;</description>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>LTX 2.3 - EditAnything - Video Editing via Prompt</title>
+      <link>https://comfy.org/workflows/1fb07c3b4b99/</link>
+      <guid isPermaLink="false">1fb07c3b4b99</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/a77ae786-13e8-417d-a07a-136d5350372d.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This experimental workflow uses an IC LoRA to attempt to Add, Remove, Change, or Convert elements of a video. For example, you can add a dog to a scene, or change the art style.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video Edit</category>
+      <category>Video to Video</category>
+      <category>Inpainting</category>
+      <category>LoRA</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>SAM3 - Remove Background via Prompt</title>
+      <link>https://comfy.org/workflows/9be3d7110c75/</link>
+      <guid isPermaLink="false">9be3d7110c75</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/3f74821f-e276-4cf1-a41f-5abb06978df6.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Isolate any subject from an image using a text prompt — just type what you want to keep (e.g. `character`, `dog`, `car`) and the workflow cuts it out and saves it as a PNG with a transparent background.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Remove Background</category>
+      <category>Image</category>
+      <category>SAM3</category>
+    </item>
+    <item>
+      <title>Qwen Image Layer Decomp for Illustration v1</title>
+      <link>https://comfy.org/workflows/a39b591d8c3b/</link>
+      <guid isPermaLink="false">a39b591d8c3b</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/9c6ad1eb-dd6f-4c04-9a61-8d0c94d8878f.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Workflow example for using Qwen Image layer decomposition tools to help separate layers in a scene.&lt;/p&gt;</description>
+      <category>Image Edit</category>
+      <category>Layer Decompose</category>
+      <category>Layout Design</category>
+      <category>Image</category>
+      <category>Qwen-Image-Layered</category>
+    </item>
+    <item>
+      <title>Quick Animatic Boards</title>
+      <link>https://comfy.org/workflows/76d64ca52b45/</link>
+      <guid isPermaLink="false">76d64ca52b45</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/4d8a093e-7d1f-40ae-a421-8807e55a0ff4.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Quickly iterate on animatic or hero keyframe boards driven by your own art. &lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Image Edit</category>
+      <category>Gemini-2.5-Flash</category>
+      <category>Nano Banana 2</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 Multiframe Stitch</title>
+      <link>https://comfy.org/workflows/d833dc5abe59/</link>
+      <guid isPermaLink="false">d833dc5abe59</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/b9d17a09-b6ef-4780-87e2-549524fcee7f.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow uses a lot of credits!
+
+This workflow allows you to create a stitched multiframe video using seedance 2.0. Great of iterating and inbetweening quickly. &lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Qwen Image Edit for Illustration v 1.0</title>
+      <link>https://comfy.org/workflows/847f17f3f95c/</link>
+      <guid isPermaLink="false">847f17f3f95c</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ff416185-2c08-4337-a944-a7741cffeba2.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow leverages Qwen Edit with a finetuned illustration LoRA for better illustrated content editing. &lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Image Edit</category>
+      <category>Anime</category>
+      <category>Qwen-Image-Edit</category>
+    </item>
+    <item>
+      <title>Relight and Environment Merge</title>
+      <link>https://comfy.org/workflows/50199f76fe74/</link>
+      <guid isPermaLink="false">50199f76fe74</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ae75b9f7-852b-462a-9b54-d3ef258302d4.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;Using a combination of illustration LoRA and relight LoRA, this workflow allows you to properly light illustrated characters in a keyframe.&lt;/p&gt;</description>
+      <category>Image</category>
+      <category>Image Edit</category>
+      <category>Relight</category>
+      <category>Qwen-Image-Edit</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 Reference to Video - Concept Art + Stop Motion Style</title>
+      <link>https://comfy.org/workflows/70e6b211c5ff/</link>
+      <guid isPermaLink="false">70e6b211c5ff</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Minta</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/700b1f1f-2571-43e6-9f88-e5efe657867c.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A useful prompt and example images for generating stop motion style shorts with concept art.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Seedance Playblast2Render</title>
+      <link>https://comfy.org/workflows/ef543bd4a773/</link>
+      <guid isPermaLink="false">ef543bd4a773</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Doug Hogan</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/10b14b45-87b9-4b79-9479-5a4a8fe24510.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow turns a raw CG playblast into a final rendered shot using Seedance 2.0.
+
+It preserves your animation and camera from the playblast, while Nano Banana Pro generates reference images and multi-angle grids to define asset look and improve consistency. A custom Gemini node builds structured prompts, allowing Seedance to reinterpret the shot with a controlled, production-ready style.
+
+The result is a fast, repeatable pipeline that replaces traditional rendering with AI-driven output while keeping full control over motion and intent.&lt;/p&gt;</description>
+      <category>Video</category>
+    </item>
+    <item>
+      <title>LTX 2.3 - Anime2Real</title>
+      <link>https://comfy.org/workflows/6fec31e40f4a/</link>
+      <guid isPermaLink="false">6fec31e40f4a</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Purz</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/fceb515d-b561-4ce1-a209-2c20962a1ebe.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This experimental workflow will take Anime characters and try to make them realistic using an LTX 2.3 IC LoRA trained by Alisson Pereira.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Video to Video</category>
+      <category>Video Edit</category>
+      <category>Anime</category>
+      <category>LTX-2.3</category>
+    </item>
+    <item>
+      <title>Video Face Swap - LTX2.3 Lora</title>
+      <link>https://comfy.org/workflows/bed989744195/</link>
+      <guid isPermaLink="false">bed989744195</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/ac012dc3-ab56-436e-b23a-da324e076d0c.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;The best open source video face swap workflow. This LTX2.3 lora was trained by @Alissonerdx.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>Character</category>
+      <category>Video to Video</category>
+    </item>
+    <item>
+      <title>Apply Color Grade from Reference Image</title>
+      <link>https://comfy.org/workflows/c2586087f709/</link>
+      <guid isPermaLink="false">c2586087f709</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/de83dc29-7177-438e-8074-d3e8348ebf7e.png" alt=""&gt;&lt;/p&gt;&lt;p&gt;The easiest way to match color grades between your images. Upload a target image and a reference image that has the desired colors and use Nano Banana 2 to extract and apply it onto the target image.&lt;/p&gt;</description>
+      <category>Style Reference</category>
+    </item>
+    <item>
+      <title>Seedance 2.0: Text to Video </title>
+      <link>https://comfy.org/workflows/api_seedance2_0_t2v-b58cf4e5cec5/</link>
+      <guid isPermaLink="false">b58cf4e5cec5</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/templates/f3dd26ba-6af6-402d-a241-8e23e9513f50.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate cinematic videos from text prompts with synchronized audio, controlled camera motion, and stable visuals. Input text descriptions to output high-quality video sequences.&lt;/p&gt;</description>
+      <category>Text to Video</category>
+      <category>Video</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Seedance 2.0: Reference to Video</title>
+      <link>https://comfy.org/workflows/api_seedance2_0_r2v-64f4db9e3e33/</link>
+      <guid isPermaLink="false">64f4db9e3e33</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/templates/c2c9ee10-a44d-4ac8-960d-f4a1155108a9.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate cinematic videos from reference images and text prompts. Preserve subject identity and composition while adding expressive motion with synchronized audio. Control camera movement and lighting through detailed prompts.&lt;/p&gt;</description>
+      <category>API</category>
+      <category>Image to Video</category>
+      <category>Video</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Seedance2.0: First-Last-Frame to Video</title>
+      <link>https://comfy.org/workflows/api_seedance2_0_flf2v-dc1311a65bc4/</link>
+      <guid isPermaLink="false">dc1311a65bc4</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/templates/4076b8ae-2032-4bd8-a378-0b441a3b8a2b.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Upload the first and last frames of your video. Generate a high-quality video sequence using the Seedance2.0 model.&lt;/p&gt;</description>
+      <category>Video</category>
+      <category>FLF2V</category>
+      <category>API</category>
+      <category>Seedance 2.0</category>
+    </item>
+    <item>
+      <title>Face Swap Workflow</title>
+      <link>https://comfy.org/workflows/93f286fbc2c8/</link>
+      <guid isPermaLink="false">93f286fbc2c8</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Doug Hogan</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/d0bc92f7-c5dc-4861-9588-5ae94b609c6d.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A ComfyUI workflow for de-aging and/or face replacements that combines AI-driven masking, reference-based identity transfer, and inpainting to produce natural, temporally consistent results. Designed for VFX use, it allows artists to quickly swap or rejuvenate faces while preserving performance, lighting, and integration with the original plate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sky Replacement</title>
+      <link>https://comfy.org/workflows/537cf7f1f745/</link>
+      <guid isPermaLink="false">537cf7f1f745</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <author>Doug Hogan</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/c8616a0b-2da9-4559-89a3-ad0eb015f084.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A ComfyUI workflow for fast, production-ready sky replacements using Wan models.&lt;/p&gt;</description>
+      <category>Video Edit</category>
+      <category>Wan2.2</category>
+    </item>
+    <item>
+      <title>ACE-Step 1.5XL Base: Text to Music</title>
+      <link>https://comfy.org/workflows/audio_ace_step1_5_xl_base-536dc32faee1/</link>
+      <guid isPermaLink="false">536dc32faee1</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <author>ComfyUI</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/templates/7e76ee53-d488-4ac0-95e3-3fed9f0d8c13.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate high-quality audio from text prompts using the 4B parameter ACE-Step 1.5 XL model. &lt;/p&gt;</description>
+      <category>Text to Music</category>
+      <category>ACE-Step</category>
+    </item>
+  </channel>
+</rss>

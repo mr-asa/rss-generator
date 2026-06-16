@@ -1,0 +1,19 @@
+{
+  "source": {
+    "url": "https://cloud.comfy.org/api/hub/workflows/index?status=approved",
+    "timeout_seconds": 30
+  },
+  "site": {
+    "title": "ComfyUI Workflows RSS",
+    "description": "Custom RSS feeds generated from the public ComfyUI workflow index.",
+    "base_url": "https://github.com/mr-asa/rss-generator"
+  },
+  "feeds": [
+    {
+      "filename": "newest.xml",
+      "title": "ComfyUI — Newest workflows",
+      "description": "Newest approved workflows from comfy.org.",
+      "limit": 100
+    }
+  ]
+}
