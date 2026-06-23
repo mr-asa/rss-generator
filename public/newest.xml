@@ -5,8 +5,26 @@
     <link>https://comfy.org/workflows</link>
     <description>Newest approved workflows from comfy.org.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 13:02:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 17:24:43 +0000</lastBuildDate>
     <atom:link href="https://github.com/mr-asa/rss-generator/newest.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extract Color Palette</title>
+      <link>https://comfy.org/workflows/560738f98e65/</link>
+      <guid isPermaLink="false">560738f98e65</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <author>Rob</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/67724249-6869-4fc9-b70a-d82084ab938b.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;Extracts a cohesive color palette from any input image and renders it as a clean, full-resolution color bar. You can choose how many colors to pull and whether each color's width reflects its visual dominance in the image or all colors are shown in equal proportions.&lt;/p&gt;</description>
+      <category>Style Reference</category>
+      <category>Image Edit</category>
+    </item>
+    <item>
+      <title>Seedance 2.0 + LLM Prompt Helper</title>
+      <link>https://comfy.org/workflows/2da9ee24ad74/</link>
+      <guid isPermaLink="false">2da9ee24ad74</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <author>enigmatic_e</author>
+      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/0f9d96df-15b5-4839-b9f7-26c2ddfbd5a0.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;This workflow uses two reference images and a simple text description to automatically generate a detailed Seedance 2.0-style prompt using an LLM. Instead of spending time figuring out complex prompting structure, the workflow analyzes your references and builds the prompt for you, making it much faster and easier to create high-quality results. The included LLM helper is designed to match the style and formatting that works well with Seedance 2.0, helping streamline the entire process while still giving you full control over the final output. Just drop in your references, describe the scene or motion you want, and the workflow handles the prompt generation automatically. &lt;/p&gt;</description>
+    </item>
     <item>
       <title>Character + Clothing Virtual Try on Studio Photoshoot</title>
       <link>https://comfy.org/workflows/5652fbe7f479/</link>
@@ -1106,26 +1124,6 @@ The result is a fast, repeatable pipeline that replaces traditional rendering wi
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
       <author>Doug Hogan</author>
       <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/d0bc92f7-c5dc-4861-9588-5ae94b609c6d.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A ComfyUI workflow for de-aging and/or face replacements that combines AI-driven masking, reference-based identity transfer, and inpainting to produce natural, temporally consistent results. Designed for VFX use, it allows artists to quickly swap or rejuvenate faces while preserving performance, lighting, and integration with the original plate.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sky Replacement</title>
-      <link>https://comfy.org/workflows/537cf7f1f745/</link>
-      <guid isPermaLink="false">537cf7f1f745</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <author>Doug Hogan</author>
-      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/uploads/c8616a0b-2da9-4559-89a3-ad0eb015f084.mp4" alt=""&gt;&lt;/p&gt;&lt;p&gt;A ComfyUI workflow for fast, production-ready sky replacements using Wan models.&lt;/p&gt;</description>
-      <category>Video Edit</category>
-      <category>Wan2.2</category>
-    </item>
-    <item>
-      <title>ACE-Step 1.5XL Base: Text to Music</title>
-      <link>https://comfy.org/workflows/audio_ace_step1_5_xl_base-536dc32faee1/</link>
-      <guid isPermaLink="false">536dc32faee1</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <author>ComfyUI</author>
-      <description>&lt;p&gt;&lt;img src="https://comfy-hub-assets.comfy.org/templates/7e76ee53-d488-4ac0-95e3-3fed9f0d8c13.webp" alt=""&gt;&lt;/p&gt;&lt;p&gt;Generate high-quality audio from text prompts using the 4B parameter ACE-Step 1.5 XL model. &lt;/p&gt;</description>
-      <category>Text to Music</category>
-      <category>ACE-Step</category>
     </item>
   </channel>
 </rss>

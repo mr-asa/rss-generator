@@ -1,19 +1,38 @@
 {
-  "source": {
-    "url": "https://cloud.comfy.org/api/hub/workflows/index?status=approved",
-    "timeout_seconds": 30
+  "sources": {
+    "comfy_workflows": {
+      "type": "comfy_workflow",
+      "url": "https://cloud.comfy.org/api/hub/workflows/index?status=approved",
+      "timeout_seconds": 30
+    },
+    "huggingface_comfy": {
+      "type": "huggingface",
+      "org": "Comfy-Org",
+      "timeout_seconds": 30,
+      "sort": "lastModified",
+      "direction": "-1",
+      "fetch_limit": 1000
+    }
   },
   "site": {
-    "title": "ComfyUI Workflows RSS",
-    "description": "Custom RSS feeds generated from the public ComfyUI workflow index.",
+    "title": "ComfyUI RSS",
+    "description": "Custom RSS feeds for ComfyUI workflows and models.",
     "base_url": "https://github.com/mr-asa/rss-generator"
   },
   "feeds": [
     {
+      "source": "comfy_workflows",
       "filename": "newest.xml",
       "title": "ComfyUI — Newest workflows",
       "description": "Newest approved workflows from comfy.org.",
       "limit": 100
+    },
+    {
+      "source": "huggingface_comfy",
+      "filename": "hf-models.xml",
+      "title": "ComfyUI HF Models",
+      "description": "New models from Comfy-Org on HuggingFace.",
+      "limit": 50
     }
   ]
 }

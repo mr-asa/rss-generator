@@ -52,8 +52,17 @@ def parse_date(value: str | None) -> datetime:
     return parsed.astimezone(timezone.utc)
 
 
-def workflow_date(item: dict[str, Any]) -> datetime:
-    return parse_date(item.get("date") or item.get("publish_time"))
+def normalize_date(item: dict[str, Any]) -> datetime:
+    if "pub_date" in item:
+        v = item["pub_date"]
+        if isinstance(v, datetime):
+            return v
+        return parse_date(v)
+    for key in ("date", "publish_time", "createdAt", "lastModified"):
+        v = item.get(key)
+        if v:
+            return parse_date(v)
+    return datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
 def workflow_title(item: dict[str, Any]) -> str:
@@ -107,36 +116,131 @@ def as_text_list(value: Any) -> list[str]:
     return result
 
 
+def normalize_workflow(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "_source": "comfy_workflow",
+        "title": workflow_title(item),
+        "link": workflow_url(item),
+        "guid": workflow_share_id(item) or workflow_url(item),
+        "pub_date": parse_date(item.get("date") or item.get("publish_time")),
+        "author": workflow_author(item),
+        "description": workflow_description(item),
+        "tags": as_text_list(item.get("tags")),
+        "models": as_text_list(item.get("models")),
+        "raw": item,
+    }
+
+
+def normalize_api_payload(payload: Any) -> list[dict[str, Any]]:
+    if isinstance(payload, list):
+        return [item for item in payload if isinstance(item, dict)]
+    if isinstance(payload, dict):
+        workflows = payload.get("workflows")
+        if isinstance(workflows, list):
+            return [item for item in workflows if isinstance(item, dict)]
+    raise RuntimeError("Unexpected API response format")
+
+
+def fetch_comfy_workflows(source: dict[str, Any]) -> list[dict[str, Any]]:
+    payload = fetch_json(str(source["url"]), int(source.get("timeout_seconds", 30)))
+    items = normalize_api_payload(payload)
+    return [normalize_workflow(i) for i in items]
+
+
+def normalize_hf_model(item: dict[str, Any]) -> dict[str, Any]:
+    model_id = item.get("modelId") or item.get("id", "")
+    model_url = f"https://huggingface.co/{model_id}"
+    tags = [t for t in item.get("tags", []) if not t.startswith("license:") and not t.startswith("region:")]
+    name_parts = model_id.split("/")
+    short_name = name_parts[-1] if name_parts else model_id
+    # Use lastModified for pub_date so updated models appear fresh
+    pub_date_raw = item.get("lastModified") or item.get("createdAt")
+
+    return {
+        "_source": "huggingface",
+        "title": short_name,
+        "link": model_url,
+        "guid": model_id,
+        "pub_date": parse_date(pub_date_raw),
+        "author": item.get("author", "HuggingFace"),
+        "description": f"ComfyUI model on HuggingFace: {model_id}",
+        "tags": tags,
+        "models": [],
+        "raw": item,
+    }
+
+
+def fetch_huggingface_models(source: dict[str, Any]) -> list[dict[str, Any]]:
+    org = str(source["org"])
+    sort_by = source.get("sort", "createdAt")
+    direction = source.get("direction", "-1")
+    fetch_limit = source.get("fetch_limit", 100)
+    timeout = int(source.get("timeout_seconds", 30))
+
+    url = (
+        f"https://huggingface.co/api/models"
+        f"?author={quote(org)}"
+        f"&sort={quote(sort_by)}"
+        f"&direction={quote(direction)}"
+        f"&limit={fetch_limit}"
+    )
+    payload = fetch_json(url, timeout)
+    if not isinstance(payload, list):
+        raise RuntimeError("Unexpected HuggingFace API response: expected a list.")
+    return [normalize_hf_model(i) for i in payload if isinstance(i, dict)]
+
+
+def fetch_source(source: dict[str, Any]) -> list[dict[str, Any]]:
+    stype = source.get("type", "comfy_workflow")
+    if stype == "comfy_workflow":
+        return fetch_comfy_workflows(source)
+    if stype == "huggingface":
+        return fetch_huggingface_models(source)
+    raise RuntimeError(f"Unknown source type: {stype}")
+
+
 def searchable_text(item: dict[str, Any]) -> str:
+    raw = item.get("raw", {})
     values = [
-        workflow_title(item),
-        workflow_description(item),
-        workflow_name(item),
-        workflow_author(item),
-        str(item.get("mediaType") or item.get("media_type") or ""),
-        *as_text_list(item.get("tags")),
-        *as_text_list(item.get("models")),
-        *as_text_list(item.get("requiresCustomNodes")),
+        item.get("title", ""),
+        item.get("description", ""),
+        item.get("author", ""),
+        *item.get("tags", []),
+        *item.get("models", []),
     ]
-    return " ".join(values).casefold()
+    if item.get("_source") == "comfy_workflow":
+        values.extend([
+            workflow_name(raw),
+            str(raw.get("mediaType") or raw.get("media_type", "")),
+            *as_text_list(raw.get("requiresCustomNodes")),
+        ])
+    if item.get("_source") == "huggingface":
+        values.append(raw.get("modelId", ""))
+    return " ".join(str(v).casefold() for v in values)
 
 
 def matches_feed(item: dict[str, Any], feed: dict[str, Any]) -> bool:
+    required_source = feed.get("source_type")
+    if required_source:
+        if item.get("_source") != required_source:
+            return False
+
     media_type = feed.get("media_type")
     if media_type:
-        actual = str(item.get("mediaType") or item.get("media_type") or "")
+        raw = item.get("raw", {})
+        actual = str(raw.get("mediaType") or raw.get("media_type", ""))
         if actual.casefold() != str(media_type).casefold():
             return False
 
     required_tag = feed.get("tag")
     if required_tag:
-        tags = {tag.casefold() for tag in as_text_list(item.get("tags"))}
+        tags = {t.casefold() for t in item.get("tags", [])}
         if str(required_tag).casefold() not in tags:
             return False
 
     required_model = feed.get("model")
     if required_model:
-        models = {model.casefold() for model in as_text_list(item.get("models"))}
+        models = {m.casefold() for m in item.get("models", [])}
         if str(required_model).casefold() not in models:
             return False
 
@@ -163,6 +267,9 @@ def add_text(parent: ET.Element, tag: str, value: str) -> ET.Element:
     return element
 
 
+sources_map: dict[str, dict[str, Any]] = {}
+
+
 def build_feed(items: list[dict[str, Any]], feed: dict[str, Any], site: dict[str, Any]) -> ET.ElementTree:
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     rss = ET.Element("rss", {"version": "2.0"})
@@ -172,8 +279,16 @@ def build_feed(items: list[dict[str, Any]], feed: dict[str, Any], site: dict[str
     base_url = str(site.get("base_url") or "").rstrip("/")
     feed_url = f"{base_url}/{filename}" if base_url else ""
 
+    source_name = feed.get("source")
+    src = sources_map.get(source_name, {})
+    if src.get("type") == "huggingface":
+        org = src.get("org", "")
+        channel_link = f"https://huggingface.co/{org}"
+    else:
+        channel_link = "https://comfy.org/workflows"
+
     add_text(channel, "title", str(feed["title"]))
-    add_text(channel, "link", "https://comfy.org/workflows")
+    add_text(channel, "link", channel_link)
     add_text(channel, "description", str(feed.get("description") or ""))
     add_text(channel, "language", "en")
     add_text(channel, "lastBuildDate", format_datetime(datetime.now(timezone.utc)))
@@ -186,71 +301,100 @@ def build_feed(items: list[dict[str, Any]], feed: dict[str, Any], site: dict[str
 
     for item in items:
         entry = ET.SubElement(channel, "item")
-        link = workflow_url(item)
-        guid = workflow_share_id(item) or link
-        description = workflow_description(item)
-        thumbnail = str(item.get("thumbnailUrl") or item.get("thumbnail_url") or "")
-        if thumbnail:
-            description = f'<p><img src="{thumbnail}" alt=""></p><p>{description}</p>'
+        description = str(item.get("description", ""))
 
-        add_text(entry, "title", workflow_title(item))
-        add_text(entry, "link", link)
-        add_text(entry, "guid", guid).set("isPermaLink", "false")
-        add_text(entry, "pubDate", format_datetime(workflow_date(item)))
-        add_text(entry, "author", workflow_author(item))
+        if item.get("_source") == "comfy_workflow":
+            raw = item.get("raw", {})
+            thumbnail = str(raw.get("thumbnailUrl") or raw.get("thumbnail_url") or "")
+            if thumbnail:
+                description = f'<p><img src="{thumbnail}" alt=""></p><p>{description}</p>'
+
+        if item.get("_source") == "huggingface":
+            raw = item.get("raw", {})
+            likes = raw.get("likes")
+            downloads = raw.get("downloads")
+            stats_parts = []
+            if likes is not None:
+                stats_parts.append(f"\u2764 {likes}")
+            if downloads is not None:
+                stats_parts.append(f"\u2193 {downloads}")
+            if stats_parts:
+                description = f'<p>{" | ".join(stats_parts)}</p><p>{description}</p>'
+
+        add_text(entry, "title", str(item.get("title", "")))
+        add_text(entry, "link", str(item.get("link", "")))
+        add_text(entry, "guid", str(item.get("guid", ""))).set("isPermaLink", "false")
+        add_text(entry, "pubDate", format_datetime(item.get("pub_date", datetime(1970, 1, 1, tzinfo=timezone.utc))))
+        add_text(entry, "author", str(item.get("author", "")))
         add_text(entry, "description", description)
 
-        for category in as_text_list(item.get("tags")):
-            add_text(entry, "category", category)
-        for model in as_text_list(item.get("models")):
-            add_text(entry, "category", model)
+        for category in item.get("tags", []):
+            add_text(entry, "category", str(category))
+        for model in item.get("models", []):
+            add_text(entry, "category", str(model))
 
     ET.indent(rss, space="  ")
     return ET.ElementTree(rss)
 
 
-def normalize_api_payload(payload: Any) -> list[dict[str, Any]]:
-    if isinstance(payload, list):
-        return [item for item in payload if isinstance(item, dict)]
-    if isinstance(payload, dict):
-        workflows = payload.get("workflows")
-        if isinstance(workflows, list):
-            return [item for item in workflows if isinstance(item, dict)]
-    raise RuntimeError("Unexpected API response format: expected a list or {'workflows': [...]}.")
-
-
 def main() -> int:
     config = load_config()
-    source = config["source"]
+    sources = config.get("sources") or {}
+
+    if not sources and "source" in config:
+        sources = {"default": config["source"]}
+
+    global sources_map
+    sources_map = sources
+
     site = config.get("site") or {}
     feeds = config.get("feeds") or []
 
-    payload = fetch_json(str(source["url"]), int(source.get("timeout_seconds", 30)))
-    all_items = normalize_api_payload(payload)
-    all_items.sort(key=workflow_date, reverse=True)
+    source_data: dict[str, list[dict[str, Any]]] = {}
+    for name, source in sources.items():
+        source_type = source.get("type", "comfy_workflow")
+        print(f"Fetching source: {name} ({source_type})")
+        items = fetch_source(source)
+        items.sort(key=normalize_date, reverse=True)
+        source_data[name] = items
+        print(f"  -> {len(items)} items")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     for feed in feeds:
+        source_name = feed.get("source")
+        if source_name and source_name in source_data:
+            all_items = source_data[source_name]
+        elif len(sources) == 1:
+            all_items = next(iter(source_data.values()))
+        else:
+            fname = feed.get("filename", "?")
+            print(f"WARNING: feed '{fname}' references unknown source '{source_name}', skipping")
+            continue
+
         filename = str(feed["filename"])
         if Path(filename).name != filename or not filename.endswith(".xml"):
             raise RuntimeError(f"Unsafe or invalid feed filename: {filename}")
+
         selected = [item for item in all_items if matches_feed(item, feed)]
         selected = selected[: int(feed.get("limit", 100))]
         output_path = OUTPUT_DIR / filename
         build_feed(selected, feed, site).write(output_path, encoding="utf-8", xml_declaration=True)
         print(f"Generated {output_path.relative_to(ROOT)}: {len(selected)} items")
 
-    index = [
+    # Build index.html
+    lines = [
         "<!doctype html>",
         '<html lang="en">',
-        "<head><meta charset=\"utf-8\"><title>ComfyUI RSS feeds</title></head>",
+        '<head><meta charset="utf-8"><title>ComfyUI RSS feeds</title></head>',
         "<body><h1>ComfyUI RSS feeds</h1><ul>",
     ]
     for feed in feeds:
-        index.append(f'<li><a href="{feed["filename"]}">{feed["title"]}</a></li>')
-    index.extend(["</ul></body>", "</html>"])
-    (OUTPUT_DIR / "index.html").write_text("\n".join(index) + "\n", encoding="utf-8")
+        fname = feed["filename"]
+        ftitle = feed["title"]
+        lines.append(f'<li><a href="{fname}">{ftitle}</a></li>')
+    lines.extend(["</ul></body>", "</html>"])
+    (OUTPUT_DIR / "index.html").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return 0
 
 

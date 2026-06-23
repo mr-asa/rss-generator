@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Comfy-Org — New models</title>
+    <link>https://huggingface.co/Comfy-Org</link>
+    <description>New models from Comfy-Org on HuggingFace.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jun 2026 17:24:43 +0000</lastBuildDate>
+    <atom:link href="https://github.com/mr-asa/rss-generator/hf-models.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Krea-2</title>
+      <link>https://huggingface.co/Comfy-Org/Krea-2</link>
+      <guid isPermaLink="false">Comfy-Org/Krea-2</guid>
+      <pubDate>Tue, 23 Jun 2026 15:55:41 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 17 | ↓ 10&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Krea-2&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Qwen3-VL</title>
+      <link>https://huggingface.co/Comfy-Org/Qwen3-VL</link>
+      <guid isPermaLink="false">Comfy-Org/Qwen3-VL</guid>
+      <pubDate>Mon, 22 Jun 2026 21:56:14 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 14 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Qwen3-VL&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Ideogram-4</title>
+      <link>https://huggingface.co/Comfy-Org/Ideogram-4</link>
+      <guid isPermaLink="false">Comfy-Org/Ideogram-4</guid>
+      <pubDate>Mon, 22 Jun 2026 17:24:25 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 175 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Ideogram-4&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>RT-DETR</title>
+      <link>https://huggingface.co/Comfy-Org/RT-DETR</link>
+      <guid isPermaLink="false">Comfy-Org/RT-DETR</guid>
+      <pubDate>Sun, 21 Jun 2026 14:24:10 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 1 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/RT-DETR&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>SeedVR2</title>
+      <link>https://huggingface.co/Comfy-Org/SeedVR2</link>
+      <guid isPermaLink="false">Comfy-Org/SeedVR2</guid>
+      <pubDate>Sun, 21 Jun 2026 14:15:08 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 12 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/SeedVR2&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Boogu-Image</title>
+      <link>https://huggingface.co/Comfy-Org/Boogu-Image</link>
+      <guid isPermaLink="false">Comfy-Org/Boogu-Image</guid>
+      <pubDate>Fri, 19 Jun 2026 02:12:45 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 84 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Boogu-Image&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>SCAIL-2</title>
+      <link>https://huggingface.co/Comfy-Org/SCAIL-2</link>
+      <guid isPermaLink="false">Comfy-Org/SCAIL-2</guid>
+      <pubDate>Thu, 18 Jun 2026 19:37:39 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 64 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/SCAIL-2&lt;/p&gt;</description>
+      <category>comfyui</category>
+      <category>diffusion-single-model</category>
+    </item>
+    <item>
+      <title>Bernini-R</title>
+      <link>https://huggingface.co/Comfy-Org/Bernini-R</link>
+      <guid isPermaLink="false">Comfy-Org/Bernini-R</guid>
+      <pubDate>Wed, 10 Jun 2026 06:17:02 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 43 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Bernini-R&lt;/p&gt;</description>
+      <category>comfyui</category>
+      <category>diffusion-single-model</category>
+      <category>base_model:ByteDance/Bernini-R</category>
+      <category>base_model:finetune:ByteDance/Bernini-R</category>
+    </item>
+    <item>
+      <title>Lens</title>
+      <link>https://huggingface.co/Comfy-Org/Lens</link>
+      <guid isPermaLink="false">Comfy-Org/Lens</guid>
+      <pubDate>Tue, 09 Jun 2026 21:20:28 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 48 | ↓ 59129&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Lens&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+      <category>base_model:microsoft/Lens</category>
+      <category>base_model:finetune:microsoft/Lens</category>
+    </item>
+    <item>
+      <title>Depth-Anything-3</title>
+      <link>https://huggingface.co/Comfy-Org/Depth-Anything-3</link>
+      <guid isPermaLink="false">Comfy-Org/Depth-Anything-3</guid>
+      <pubDate>Tue, 09 Jun 2026 11:50:42 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 9 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Depth-Anything-3&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Qwen-Image_ComfyUI</title>
+      <link>https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI</link>
+      <guid isPermaLink="false">Comfy-Org/Qwen-Image_ComfyUI</guid>
+      <pubDate>Sat, 06 Jun 2026 09:11:16 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 433 | ↓ 1541315&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Qwen-Image_ComfyUI&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>PixelDiT</title>
+      <link>https://huggingface.co/Comfy-Org/PixelDiT</link>
+      <guid isPermaLink="false">Comfy-Org/PixelDiT</guid>
+      <pubDate>Tue, 02 Jun 2026 15:21:35 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 100 | ↓ 132980&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/PixelDiT&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>TRELLIS.2</title>
+      <link>https://huggingface.co/Comfy-Org/TRELLIS.2</link>
+      <guid isPermaLink="false">Comfy-Org/TRELLIS.2</guid>
+      <pubDate>Fri, 29 May 2026 14:50:05 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 34 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/TRELLIS.2&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>HiDream-O1-Image</title>
+      <link>https://huggingface.co/Comfy-Org/HiDream-O1-Image</link>
+      <guid isPermaLink="false">Comfy-Org/HiDream-O1-Image</guid>
+      <pubDate>Thu, 28 May 2026 15:03:08 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 77 | ↓ 122087&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/HiDream-O1-Image&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>ltx-2.3</title>
+      <link>https://huggingface.co/Comfy-Org/ltx-2.3</link>
+      <guid isPermaLink="false">Comfy-Org/ltx-2.3</guid>
+      <pubDate>Mon, 25 May 2026 11:28:21 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 23 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/ltx-2.3&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mediapipe</title>
+      <link>https://huggingface.co/Comfy-Org/mediapipe</link>
+      <guid isPermaLink="false">Comfy-Org/mediapipe</guid>
+      <pubDate>Thu, 21 May 2026 05:21:52 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 13 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/mediapipe&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>stable-audio-3</title>
+      <link>https://huggingface.co/Comfy-Org/stable-audio-3</link>
+      <guid isPermaLink="false">Comfy-Org/stable-audio-3</guid>
+      <pubDate>Wed, 20 May 2026 15:19:38 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 33 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/stable-audio-3&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Qwen3.5</title>
+      <link>https://huggingface.co/Comfy-Org/Qwen3.5</link>
+      <guid isPermaLink="false">Comfy-Org/Qwen3.5</guid>
+      <pubDate>Wed, 20 May 2026 09:09:56 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 29 | ↓ 84475&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Qwen3.5&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>void-model</title>
+      <link>https://huggingface.co/Comfy-Org/void-model</link>
+      <guid isPermaLink="false">Comfy-Org/void-model</guid>
+      <pubDate>Tue, 19 May 2026 23:25:27 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 22 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/void-model&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>LongCat-Image</title>
+      <link>https://huggingface.co/Comfy-Org/LongCat-Image</link>
+      <guid isPermaLink="false">Comfy-Org/LongCat-Image</guid>
+      <pubDate>Tue, 19 May 2026 23:25:13 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 17 | ↓ 11242&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/LongCat-Image&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>MoGe</title>
+      <link>https://huggingface.co/Comfy-Org/MoGe</link>
+      <guid isPermaLink="false">Comfy-Org/MoGe</guid>
+      <pubDate>Tue, 19 May 2026 23:25:01 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 23 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/MoGe&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>BiRefNet</title>
+      <link>https://huggingface.co/Comfy-Org/BiRefNet</link>
+      <guid isPermaLink="false">Comfy-Org/BiRefNet</guid>
+      <pubDate>Tue, 19 May 2026 23:24:32 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 24 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/BiRefNet&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>sam3.1</title>
+      <link>https://huggingface.co/Comfy-Org/sam3.1</link>
+      <guid isPermaLink="false">Comfy-Org/sam3.1</guid>
+      <pubDate>Wed, 06 May 2026 13:59:05 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 50 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/sam3.1&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>gemma-4</title>
+      <link>https://huggingface.co/Comfy-Org/gemma-4</link>
+      <guid isPermaLink="false">Comfy-Org/gemma-4</guid>
+      <pubDate>Wed, 06 May 2026 13:44:48 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 42 | ↓ 4079&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/gemma-4&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>ERNIE-Image</title>
+      <link>https://huggingface.co/Comfy-Org/ERNIE-Image</link>
+      <guid isPermaLink="false">Comfy-Org/ERNIE-Image</guid>
+      <pubDate>Thu, 23 Apr 2026 12:38:11 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 190 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/ERNIE-Image&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>frame_interpolation</title>
+      <link>https://huggingface.co/Comfy-Org/frame_interpolation</link>
+      <guid isPermaLink="false">Comfy-Org/frame_interpolation</guid>
+      <pubDate>Thu, 23 Apr 2026 12:36:13 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 27 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/frame_interpolation&lt;/p&gt;</description>
+      <category>comfyui</category>
+      <category>frame-interpolation</category>
+      <category>rife</category>
+      <category>film</category>
+    </item>
+    <item>
+      <title>ace_step_1.5_ComfyUI_files</title>
+      <link>https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files</link>
+      <guid isPermaLink="false">Comfy-Org/ace_step_1.5_ComfyUI_files</guid>
+      <pubDate>Wed, 08 Apr 2026 02:18:03 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 150 | ↓ 328848&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/ace_step_1.5_ComfyUI_files&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>causal_forcing_framewise_ComfyUI_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/causal_forcing_framewise_ComfyUI_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/causal_forcing_framewise_ComfyUI_repackaged</guid>
+      <pubDate>Thu, 26 Mar 2026 08:53:10 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 7 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/causal_forcing_framewise_ComfyUI_repackaged&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ltx-2</title>
+      <link>https://huggingface.co/Comfy-Org/ltx-2</link>
+      <guid isPermaLink="false">Comfy-Org/ltx-2</guid>
+      <pubDate>Sun, 08 Mar 2026 17:36:30 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 134 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/ltx-2&lt;/p&gt;</description>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>SDPose</title>
+      <link>https://huggingface.co/Comfy-Org/SDPose</link>
+      <guid isPermaLink="false">Comfy-Org/SDPose</guid>
+      <pubDate>Tue, 03 Mar 2026 23:03:30 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 31 | ↓ 25514&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/SDPose&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>HunyuanVideo_1.5_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/HunyuanVideo_1.5_repackaged</guid>
+      <pubDate>Thu, 19 Feb 2026 00:44:15 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 92 | ↓ 387385&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/HunyuanVideo_1.5_repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Qwen-Image-Edit_ComfyUI</title>
+      <link>https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI</link>
+      <guid isPermaLink="false">Comfy-Org/Qwen-Image-Edit_ComfyUI</guid>
+      <pubDate>Sat, 14 Feb 2026 07:44:25 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 417 | ↓ 689142&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Qwen-Image-Edit_ComfyUI&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Wan_2.1_ComfyUI_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/Wan_2.1_ComfyUI_repackaged</guid>
+      <pubDate>Wed, 28 Jan 2026 12:44:01 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 913 | ↓ 2333870&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Wan_2.1_ComfyUI_repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>z_image</title>
+      <link>https://huggingface.co/Comfy-Org/z_image</link>
+      <guid isPermaLink="false">Comfy-Org/z_image</guid>
+      <pubDate>Tue, 27 Jan 2026 16:10:00 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 242 | ↓ 141944&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/z_image&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>vae-text-encorder-for-flux-klein-9b</title>
+      <link>https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b</link>
+      <guid isPermaLink="false">Comfy-Org/vae-text-encorder-for-flux-klein-9b</guid>
+      <pubDate>Thu, 15 Jan 2026 16:24:35 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 163 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/vae-text-encorder-for-flux-klein-9b&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>vae-text-encorder-for-flux-klein-4b</title>
+      <link>https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-4b</link>
+      <guid isPermaLink="false">Comfy-Org/vae-text-encorder-for-flux-klein-4b</guid>
+      <pubDate>Thu, 15 Jan 2026 15:43:01 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 73 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/vae-text-encorder-for-flux-klein-4b&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>flux1-dev</title>
+      <link>https://huggingface.co/Comfy-Org/flux1-dev</link>
+      <guid isPermaLink="false">Comfy-Org/flux1-dev</guid>
+      <pubDate>Tue, 13 Jan 2026 03:20:45 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 632 | ↓ 582704&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/flux1-dev&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>flux2-dev</title>
+      <link>https://huggingface.co/Comfy-Org/flux2-dev</link>
+      <guid isPermaLink="false">Comfy-Org/flux2-dev</guid>
+      <pubDate>Sat, 10 Jan 2026 04:45:01 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 266 | ↓ 956774&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/flux2-dev&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>z_image_turbo</title>
+      <link>https://huggingface.co/Comfy-Org/z_image_turbo</link>
+      <guid isPermaLink="false">Comfy-Org/z_image_turbo</guid>
+      <pubDate>Sat, 10 Jan 2026 04:11:54 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 742 | ↓ 2361589&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/z_image_turbo&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Chroma1-HD_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/Chroma1-HD_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/Chroma1-HD_repackaged</guid>
+      <pubDate>Wed, 31 Dec 2025 15:46:24 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 8 | ↓ 24778&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Chroma1-HD_repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Qwen-Image-Layered_ComfyUI</title>
+      <link>https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI</link>
+      <guid isPermaLink="false">Comfy-Org/Qwen-Image-Layered_ComfyUI</guid>
+      <pubDate>Mon, 22 Dec 2025 05:40:08 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 62 | ↓ 25391&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Qwen-Image-Layered_ComfyUI&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>NewBie-image-Exp0.1_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/NewBie-image-Exp0.1_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/NewBie-image-Exp0.1_repackaged</guid>
+      <pubDate>Sat, 20 Dec 2025 13:23:49 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 15 | ↓ 47357&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/NewBie-image-Exp0.1_repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>CLIP-ViT-H-14-laion2B-s32B-b79K_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/CLIP-ViT-H-14-laion2B-s32B-b79K_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/CLIP-ViT-H-14-laion2B-s32B-b79K_repackaged</guid>
+      <pubDate>Thu, 11 Dec 2025 09:27:13 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 3 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/CLIP-ViT-H-14-laion2B-s32B-b79K_repackaged&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>stable_diffusion_2.1_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/stable_diffusion_2.1_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/stable_diffusion_2.1_repackaged</guid>
+      <pubDate>Wed, 10 Dec 2025 15:06:08 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 9 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/stable_diffusion_2.1_repackaged&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>stable-diffusion-v1-5-archive</title>
+      <link>https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive</link>
+      <guid isPermaLink="false">Comfy-Org/stable-diffusion-v1-5-archive</guid>
+      <pubDate>Wed, 10 Dec 2025 15:04:36 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 107 | ↓ 4894190&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/stable-diffusion-v1-5-archive&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+      <category>en</category>
+      <category>base_model:CompVis/stable-diffusion-v1-4</category>
+      <category>base_model:finetune:CompVis/stable-diffusion-v1-4</category>
+    </item>
+    <item>
+      <title>Chroma1-Radiance_Repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/Chroma1-Radiance_Repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/Chroma1-Radiance_Repackaged</guid>
+      <pubDate>Wed, 10 Dec 2025 12:57:24 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 4 | ↓ 4654&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Chroma1-Radiance_Repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Wan_2.2_ComfyUI_Repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/Wan_2.2_ComfyUI_Repackaged</guid>
+      <pubDate>Tue, 09 Dec 2025 09:02:14 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 749 | ↓ 5229705&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Wan_2.2_ComfyUI_Repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>Ovis-Image</title>
+      <link>https://huggingface.co/Comfy-Org/Ovis-Image</link>
+      <guid isPermaLink="false">Comfy-Org/Ovis-Image</guid>
+      <pubDate>Tue, 02 Dec 2025 01:50:06 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 32 | ↓ 16399&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/Ovis-Image&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+    <item>
+      <title>stable_diffusion_2.1_unclip_repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/stable_diffusion_2.1_unclip_repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/stable_diffusion_2.1_unclip_repackaged</guid>
+      <pubDate>Fri, 14 Nov 2025 10:05:20 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 1 | ↓ 0&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/stable_diffusion_2.1_unclip_repackaged&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>T2I-Adapter_ComfyUI_Repackaged</title>
+      <link>https://huggingface.co/Comfy-Org/T2I-Adapter_ComfyUI_Repackaged</link>
+      <guid isPermaLink="false">Comfy-Org/T2I-Adapter_ComfyUI_Repackaged</guid>
+      <pubDate>Mon, 13 Oct 2025 04:43:49 +0000</pubDate>
+      <author>HuggingFace</author>
+      <description>&lt;p&gt;❤ 3 | ↓ 1714&lt;/p&gt;&lt;p&gt;ComfyUI model on HuggingFace: Comfy-Org/T2I-Adapter_ComfyUI_Repackaged&lt;/p&gt;</description>
+      <category>diffusion-single-file</category>
+      <category>comfyui</category>
+    </item>
+  </channel>
+</rss>
